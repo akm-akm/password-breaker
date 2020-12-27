@@ -1,4 +1,4 @@
-#change this list with keywords matchin that of the person
+#change this list with keywords matching that of the person
 
 nam=['bill','gates','2001','1967','elon','1234','123','08','8','!','@','2020','2019','2018','#','09031999','08','qwerty','davi123@gmail.com','password','root','toor','01','1','654712342','867876545','hello','12345678','        ','fuck','ilove','%']
 
