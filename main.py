@@ -1,13 +1,10 @@
 #change this list with keywords matchin that of the person
+import itertools,hashlib,os
 
 nam=['bill','gates','2001','1967','elon','1234','123','08','8','!','@','2020','2019','2018','#','09031999','08','qwerty','davi123@gmail.com','password','root','toor','01','1','654712342','867876545','hello','12345678','        ','fuck','ilove','%']
 
-
-def qq():
-    input("")
     
 def w1(nam,h):
-    import itertools,hashlib
     permutations=itertools.permutations(nam,1)
     final_list=[]
     m=0
@@ -20,10 +17,8 @@ def w1(nam,h):
         if h==str(result.hexdigest()):
             print("THE PASS IS > " +key)
             print (m)
-            qq() 
-            break 
+            os._exit(0) 
 def w2(nam,h):
-    import itertools,hashlib
     permutations=itertools.permutations(nam,2)
     final_list=[]
     m=0
@@ -37,10 +32,8 @@ def w2(nam,h):
         if h==str(result.hexdigest()):
             print("THE PASS IS > " +key)
             print (m)
-            qq() 
-            break       
+            os._exit(0)       
 def w3(nam,h):
-    import itertools,hashlib
     permutations=itertools.permutations(nam,3)
     final_list=[]
     m=0
@@ -53,10 +46,8 @@ def w3(nam,h):
         if h==str(result.hexdigest()):
             print("THE PASS IS > " +key)
             print (m)
-            qq() 
-            break    
+            os._exit(0)    
 def w4(nam,h):
-    import itertools,hashlib
     permutations=itertools.permutations(nam,4)
     final_list=[]
     m=0
@@ -69,10 +60,8 @@ def w4(nam,h):
         if h==str(result.hexdigest()):
             print("THE PASS IS > " +key)
             print (m)
-            qq() 
-            break  
+            os._exit(0)
 def w5(nam,h):
-    import itertools,hashlib
     permutations=itertools.permutations(nam,5)
     final_list=[]
     m=0
@@ -85,9 +74,8 @@ def w5(nam,h):
         if h==str(result.hexdigest()):
             print("THE PASS IS > " +key)
             print (m)
-            qq() 
-            break
-m=0
+            os._exit(0)
+
 h=str(input("ENTER HASH TO CRACK > ")).lower()
 w1(nam ,h)
 w2(nam ,h)
