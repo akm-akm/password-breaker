@@ -1,13 +1,6 @@
-<<<<<<< HEAD
-#change this list with keywords matchin that of the person
 import itertools,hashlib,os
-=======
-#change this list with keywords matching that of the person
->>>>>>> 24dc89159982479885d6a8de3acea6dc1de15185
-
 nam=['bill','gates','2001','1967','elon','1234','123','08','8','!','@','2020','2019','2018','#','09031999','08','qwerty','davi123@gmail.com','password','root','toor','01','1','654712342','867876545','hello','12345678','        ','fuck','ilove','%']
 
-    
 def w1(nam,h):
     permutations=itertools.permutations(nam,1)
     final_list=[]
